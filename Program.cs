@@ -8,10 +8,20 @@ namespace noteBookLM_02
 
     class ogrenci
     {
-     
+
+        public static int kayitliOgrenciSayisi = 0;
+
         public string isim;
         public string soyad;
-        public int okulNo;
+        public long okulNo;
+public ogrenci( string _isim,string _soyad , long _okulNo  )
+        {
+            isim = _isim;
+            soyad = _soyad;
+            okulNo = _okulNo;
+            kayitliOgrenciSayisi++;
+
+        }
 
         public void ogrenciID()
         {
@@ -22,9 +32,7 @@ namespace noteBookLM_02
 
     
     }
-
-
-    internal class Program
+        internal class Program
     {
         static void Main(string[] args)
         {
@@ -40,33 +48,26 @@ namespace noteBookLM_02
 
 
             int sart = 1;
-            int sayac = 0;
+            
             while (sart==1)
-            {
-
-            ogrenci number1 = new ogrenci();
+            {              
+                              
             Console.Write("Öğrencinin ismini giriniz: ");
-            number1.isim = Console.ReadLine();
+            string isim = Console.ReadLine();
             Console.Write("Öğrencinin soyadını giriniz: ");
-            number1.soyad = Console.ReadLine();
+            string soyad = Console.ReadLine();
             Console.Write("Öğrencinin okul numarasını giriniz: ");
-            number1.okulNo = int.Parse(Console.ReadLine());
-            number1.ogrenciID();
+            long okulNo = long.Parse(Console.ReadLine());
+            
+                ogrenci yeniOgrenci = new ogrenci(isim , soyad, okulNo);
                 Console.WriteLine();
                 Console.Write("Yeni öğrenci kaydetmek için 1 'e / Sistemden çıkmak için 0 ' a basınız: ");
               
                 sart = int.Parse(Console.ReadLine());
-                sayac++;
-                
+                              
             }
-
-            Console.WriteLine(sayac +" tane öğrenci kayıt yapmıştır. ");
-
-
-
-
-
-
+            
+            Console.WriteLine(ogrenci.kayitliOgrenciSayisi+ " tane öğrenci kayıt yapmıştır. ");
         }
         #region    
         //static int KareAl(int number)

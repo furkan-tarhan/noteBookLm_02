@@ -1,0 +1,8 @@
+C:\Users\Msı\source\repos\NotebookLM_Calısma\NoteBookLM_Calısma_03\bin\Debug\NoteBookLM_Calısma_03.exe.config
+C:\Users\Msı\source\repos\NotebookLM_Calısma\NoteBookLM_Calısma_03\bin\Debug\NoteBookLM_Calısma_03.exe
+C:\Users\Msı\source\repos\NotebookLM_Calısma\NoteBookLM_Calısma_03\bin\Debug\NoteBookLM_Calısma_03.pdb
+C:\Users\Msı\source\repos\NotebookLM_Calısma\NoteBookLM_Calısma_03\obj\Debug\NoteBookLM_Calısma_03.csproj.AssemblyReference.cache
+C:\Users\Msı\source\repos\NotebookLM_Calısma\NoteBookLM_Calısma_03\obj\Debug\NoteBookLM_Calısma_03.csproj.CoreCompileInputs.cache
+C:\Users\Msı\source\repos\NotebookLM_Calısma\NoteBookLM_Calısma_03\obj\Debug\NoteBookLM_Calısma_03.exe
+C:\Users\Msı\source\repos\NotebookLM_Calısma\NoteBookLM_Calısma_03\obj\Debug\NoteBookLM_Calısma_03.pdb
+C:\Users\Msı\source\repos\NotebookLM_Calısma\NoteBookLM_Calısma_03\obj\Debug\NoteBookLM_Calısma_03.exe.config
