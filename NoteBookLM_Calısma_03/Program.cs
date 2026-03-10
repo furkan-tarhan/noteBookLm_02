@@ -19,7 +19,7 @@ namespace NoteBookLM_Calısma_03
             car1.Marka = "BMW";
             car1.Hiz = 2000;
 
-            Araba car2 = new Araba();
+            Araba car2 = new Araba(); // sdsfsdfsdfsdfs
             car2.Model = 1990;
             car2.Marka = "TOFAŞ";
             car2.Hiz =110;
